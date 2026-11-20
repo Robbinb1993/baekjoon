@@ -1,11 +1,7 @@
 # Build output
 /build/
 /bin/
-*.o
-*.obj
-*.out
 *.exe
-*.pdb
 
 # Local editor settings and scratch input
 /.idea/
