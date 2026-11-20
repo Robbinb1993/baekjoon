@@ -1,0 +1,21 @@
+# Build output
+/build/
+/bin/
+*.o
+*.obj
+*.out
+*.exe
+*.pdb
+/2887_svemir
+/3015_oasis_reunion
+
+# Local editor settings and scratch input
+/.idea/
+/.vscode/
+*.swp
+/input.txt
+/output.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
