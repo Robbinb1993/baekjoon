@@ -6,6 +6,7 @@
 *.out
 *.exe
 *.pdb
+/1602_fugitive_monkey
 /2887_svemir
 /3015_oasis_reunion
 

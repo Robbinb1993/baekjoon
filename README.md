@@ -5,6 +5,7 @@ Each problem has a standalone solution, with the problem number at the start of 
 
 | Problem | Solution | Approach |
 | --- | --- | --- |
+| 1602 | [Fugitive Monkey](1602_fugitive_monkey.cc) | Floyd–Warshall in order of increasing holdup time |
 | 2887 | [Svemir](2887_svemir.cc) | Sort by each coordinate, then run Prim's algorithm |
 | 3015 | [Oasis Reunion](3015_oasis_reunion.cc) | Monotonic stack with counts for equal heights |
 
