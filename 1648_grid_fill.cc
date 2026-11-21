@@ -22,7 +22,7 @@ int solve(const int r, const int c, const int bm) {
     }
 
     long long tot = 0;
-    // When tile to the right is not occupied, place a horizontal domino.
+    // When the tile to the right is not occupied, place a horizontal domino.
     if (c + 1 < M && !(bm & (1 << (c + 1)))) {
         tot += solve(r, c + 1, bm | (1 << (c + 1)));
     }
