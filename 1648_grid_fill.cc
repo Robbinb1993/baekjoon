@@ -16,17 +16,17 @@ int solve(const int r, const int c, const int bm) {
     if (DP[r][c][bm] != -1) {
         return DP[r][c][bm];
     }
-    // The current tile is already occupied. Clear its bit and move to the next column.
+    // Already covered? Skip this tile.
     if (bm & (1 << c)) {
         return DP[r][c][bm] = solve(r, c + 1, bm ^ (1 << c));
     }
 
     long long tot = 0;
-    // If the tile to the right exists and is free, place a horizontal domino.
+    // Room on the right? Place a horizontal domino.
     if (c + 1 < M && !(bm & (1 << (c + 1)))) {
         tot += solve(r, c + 1, bm | (1 << (c + 1)));
     }
-    // If there is a row below, place a vertical domino and mark the tile below as occupied.
+    // Room below? Place a vertical domino.
     if (r + 1 < N) {
         tot += solve(r, c + 1, bm ^ (1 << c));
     }
