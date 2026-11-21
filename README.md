@@ -10,6 +10,7 @@ Each problem has a standalone solution, with the problem number at the start of 
 | 2873 | [Roller Coaster](2873_rollercoaster.cc) | Construct a zigzag path based on grid parity |
 | 2887 | [Svemir](2887_svemir.cc) | Sort by each coordinate, then run Prim's algorithm |
 | 3015 | [Oasis Reunion](3015_oasis_reunion.cc) | Monotonic stack with counts for equal heights |
+| 3197 | [Swan Lake](3197_swan_lake.cc) | Melt ice day by day and track connected water with Union-Find |
 
 Compile and run one solution at a time. For example:
 
