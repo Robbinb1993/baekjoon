@@ -14,10 +14,6 @@ My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
 | 3197 | [Swan Lake](3197_swan_lake.cc) | Multi-source BFS and Union-Find for incremental connectivity | `O(rc·α(rc))` |
 | 5719 | [Almost Shortest Path](5719_almost_shortest_path.cc) | Run Dijkstra twice, blocking every edge on any shortest path between runs | `O(n² + m log n)` |
 
-Bounds are per test case. Grid dimensions are `r × c`. For graphs, `n` counts vertices, `m` edges, and `q` queries. In 1006, 2887, and 3015, `n` counts columns, points, and people, respectively. In 1693, `k` is the number of colors tried (20 in the code). `α` is the inverse Ackermann function from Union-Find.
-
-1648 and 1693 also clear their full fixed-size DP tables on startup.
-
 Compile and run one solution at a time. For example:
 
 ```sh
