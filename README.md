@@ -11,6 +11,7 @@ Each problem has a standalone solution, with the problem number at the start of 
 | 2887 | [Svemir](2887_svemir.cc) | Sort by each coordinate, then run Prim's algorithm |
 | 3015 | [Oasis Reunion](3015_oasis_reunion.cc) | Monotonic stack with counts for equal heights |
 | 3197 | [Swan Lake](3197_swan_lake.cc) | Multi-source BFS and Union-Find for incremental connectivity |
+| 5719 | [Almost Shortest Path](5719_almost_shortest_path.cc) | Run Dijkstra twice, blocking every edge on any shortest path between runs |
 
 Compile and run one solution at a time. For example:
 
