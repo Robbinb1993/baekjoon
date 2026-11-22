@@ -1,7 +1,6 @@
 # Baekjoon solutions
 
 My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
-Each problem has a standalone solution, with the problem number at the start of its filename.
 
 | Problem | Solution | Approach |
 | --- | --- | --- |
