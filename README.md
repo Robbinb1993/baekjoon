@@ -4,7 +4,7 @@ My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
 
 | Problem | Solution | Approach |
 | --- | --- | --- |
-| 1006 | [Choragi the Invader](1006_choragi_the_invader.cc) | Scan the two rings column by column with bitmask DP, keeping the first column’s mask to close the loop |
+| 1006 | [Choragi the Invader](1006_choragi_the_invader.cc) | Bitmask DP on a 2×N grid with a first-column mask for wraparound |
 | 1602 | [Fugitive Monkey](1602_fugitive_monkey.cc) | Floyd–Warshall in order of increasing holdup time |
 | 1648 | [Grid Fill](1648_grid_fill.cc) | Bitmask DP for domino tilings |
 | 2873 | [Roller Coaster](2873_rollercoaster.cc) | Construct a zigzag path based on grid parity |
