@@ -18,7 +18,7 @@ My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
 | [13308](https://acmicpc.net/problem/13308) | [Gas Stations](13308_gas_stations.cc) | Dijkstra over (city, cheapest fuel price so far), with price limit P | `O(nP + mP log(mP))` |
 | [13511](https://acmicpc.net/problem/13511) | [Tree and Queries 2](13511_tree_and_queries_2.cc) | Binary lifting for path distances and k-th vertices | `O((n + q) log n)` |
 | [16993](https://acmicpc.net/problem/16993) | [Maximum Subarray Sum Queries](16993_maximum_subarray_sum_queries.cc) | Segment tree storing sum, best prefix, suffix, and subarray | `O(n + q log n)` |
-| [17071](https://acmicpc.net/problem/17071) | [Hide and Seek 5](17071_hide_and_seek_5.cc) | Simulate reachable positions up to L with 64-bit bitsets | `O(⌈(L + 1)/64⌉·√L)` |
+| [17071](https://acmicpc.net/problem/17071) | [Hide and Seek 5](17071_hide_and_seek_5.cc) | Simulate reachable positions up to L with 64-bit bitsets | `O(L√L)` |
 
 Compile and run one solution at a time. For example:
 
