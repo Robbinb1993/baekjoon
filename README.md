@@ -14,6 +14,11 @@ My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
 | [3015](https://acmicpc.net/problem/3015) | [Oasis Reunion](3015_oasis_reunion.cc) | Monotonic stack with counts for equal heights | `O(n)` |
 | [3197](https://acmicpc.net/problem/3197) | [Swan Lake](3197_swan_lake.cc) | Multi-source BFS and Union-Find for incremental connectivity | `O(rc·α(rc))` |
 | [5719](https://acmicpc.net/problem/5719) | [Almost Shortest Path](5719_almost_shortest_path.cc) | Run Dijkstra twice, blocking every edge on any shortest path between runs | `O(n² + m log n)` |
+| [8462](https://acmicpc.net/problem/8462) | [Power of an Array](8462_to_power_of_an_array.cc) | Mo's algorithm with frequency updates | `O(q log q + (n + q)√n)` |
+| [13308](https://acmicpc.net/problem/13308) | [Gas Stations](13308_gas_stations.cc) | Dijkstra over (city, cheapest fuel price so far), with price limit P | `O(nP + mP log(mP))` |
+| [13511](https://acmicpc.net/problem/13511) | [Tree and Queries 2](13511_tree_and_queries_2.cc) | Binary lifting for path distances and k-th vertices | `O((n + q) log n)` |
+| [16993](https://acmicpc.net/problem/16993) | [Maximum Subarray Sum Queries](16993_maximum_subarray_sum_queries.cc) | Segment tree storing sum, best prefix, suffix, and subarray | `O(n + q log n)` |
+| [17071](https://acmicpc.net/problem/17071) | [Hide and Seek 5](17071_hide_and_seek_5.cc) | Simulate reachable positions up to L with 64-bit bitsets | `O(⌈(L + 1)/64⌉·√L)` |
 
 Compile and run one solution at a time. For example:
 
