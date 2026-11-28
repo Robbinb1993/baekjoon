@@ -17,7 +17,7 @@ My C++ solutions for [Baekjoon Online Judge](https://www.acmicpc.net/).
 | [5719](https://acmicpc.net/problem/5719) | [Almost Shortest Path](5719_almost_shortest_path.cc) | Run Dijkstra twice, blocking every edge on any shortest path between runs | `O(n² + m log n)` |
 | [8462](https://acmicpc.net/problem/8462) | [Power of an Array](8462_to_power_of_an_array.cc) | Mo's algorithm with frequency updates | `O(q log q + (n + q)√n)` |
 | [9373](https://acmicpc.net/problem/9373) | [Getting Through](9373_getting_through.cc) | Binary search the radius, checking whether obstacles connect both walls | `O((n + 1)² log(w/ε))` |
-| [10167](https://acmicpc.net/problem/10167) | [Gold Mines](10167_gold_mines.cc) | Fix each lower y-bound and add mines one y-level at a time, tracking the best x-interval with a segment tree | `O(n² log n)` |
+| [10167](https://acmicpc.net/problem/10167) | [Gold Mines](10167_gold_mines.cc) | Fix each lower y-bound and add mines level by level in increasing y order, tracking the best x-interval with a segment tree | `O(n² log n)` |
 | [13263](https://acmicpc.net/problem/13263) | [Sawing Trees](13263_sawing_trees.cc) | DP optimized with a monotone convex hull trick | `O(n)` |
 | [13308](https://acmicpc.net/problem/13308) | [Gas Stations](13308_gas_stations.cc) | Dijkstra over (city, cheapest fuel price so far), with price limit P | `O(nP + mP log(mP))` |
 | [13511](https://acmicpc.net/problem/13511) | [Tree and Queries 2](13511_tree_and_queries_2.cc) | Binary lifting for path distances and k-th vertices | `O((n + q) log n)` |
